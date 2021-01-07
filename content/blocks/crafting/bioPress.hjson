@@ -1,15 +1,15 @@
 name: Biopress
-description: "Presses down bionorbs for water"
+description: "Presses down bionorbs for water."
 size: 1
 hasLiquids: true
 hasItems: true
 craftTime: 120
 consumes: {
-items:{
-items:[
-bionorb/1
-]
-}
+  items: {
+    items: [
+      bionorb/1
+    ]
+  }
 }
 requirements: [
   stone/60
