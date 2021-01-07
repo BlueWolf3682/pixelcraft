@@ -1,7 +1,6 @@
 type: mech
 name: "Stalagmite"
-description: "A fortress that's been left out for too 
-long, shoots icy balls of frost that freeze units."
+description: "A fortress that's been left out for too long. Shoots icy balls of frost that freeze units."
 speed : 0.4
 health: 890
 armor: 12
