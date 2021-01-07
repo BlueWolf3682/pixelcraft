@@ -1,5 +1,5 @@
 type: naval
-name: "Trebuche"
+name: "Trebuchet"
 description: "A fast, armored assault ship."
 speed: 1.7
 drag: 0.13
