@@ -1,5 +1,5 @@
 type: flying
-name: "Rusty dart"
+name: "Rusty Dart"
 description: "Contains an ai that can transport itself into other mechanisms that allow it to."
 flying: true
 speed: 3.3
