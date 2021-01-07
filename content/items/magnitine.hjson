@@ -1,9 +1,9 @@
 name: Magnitine
 description: Refined iron with magnetic properties. Looks shiny.
-details:  Some bots went rogue. Others helped their relatives for they knew if their type had vanished, all the hope left for their kind would be restoration.\n\nAfter it was found, the slag wars began. What was once a peaceful world had volcanoes erupt all over the world and requried help.
+details:  "Some bots went rogue. Others helped their relatives for they knew if their type had vanished, all the hope left for their kind would be restoration.\n\nAfter it was found, the slag wars began. What was once a peaceful world had volcanoes erupt all over the world and requried help."
 hardness: 2
 cost: 1
-color: ffffff
+acolor: ffffff
 alwaysUnlocked: false
 research: {
   parent: iron
