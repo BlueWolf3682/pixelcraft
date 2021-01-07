@@ -21,53 +21,6 @@ canBoost: true
 weapons: [ 
 {
 name: aged-blaster
-reload: 15
-alternate: true
-ejectEffect: casing2
-top: false
-shootSound: shoot
-x: 4
-y: -.5
-rotate: false
-bullet: {
-type: MissileBulletType
-damage: 2
-speed: 4
-lifetime: 25
-fragBullets: 3
-hitSound: pew
-fragBullet:{
-type: BasicBulletType
-damage: 1
-speed: 1
-}
-}
-}
-{
-name: aged-blaster
-reload: 50
-alternate: false
-ejectEffect: casing1
-top: false
-shootSound: spark
-x: 4
-y: -1.2
-rotate: false
-shots: 2
-bullet: {
-type: LightningBulletType
-lightning: 2
-lightningLength: 5
-lightningLengthRand: 7
-healPercent: 2
-collidesTeam: true
-damage: 1
-speed: 4
-lifetime: 50
-}
-}
-{
-name: aged-blaster
 reload: 5
 alternate: true
 ejectEffect: wet
