@@ -4,7 +4,7 @@ size: 2
 hasItems: true
 craftTime: 140
 consumes: {
-power: 2
+  power: 2
 }
 requirements: [
   stone/100
