@@ -1,5 +1,6 @@
 # Pixelcraft
 A v6 mod for mindustry
+
 This mod aims to expand mindustry's content by adding a new tech tree, adding upgraded versions of existing blocks and more!
 - adds new resources, new turrets and new zones as well as slight tweaks to vanilla.
 - 56 new building blocks to play with, 1 environmental block, 2 ores and 6 items with more to come.
@@ -15,7 +16,7 @@ Blaze|A flamethrower that can hit air. Just like Scorch can pierce indefinantly.
 Helgravator|A coal only flamethrower which has the ability to spawn flamming oil puddles wherever the shots land.
 Dusk|A powerful railgun that can use titanium and steel. Can't target air without help.
 Dawn|A turret that shoots 10 bullets outwards.
-Pace Point and Panic|Electric anti air turrets. Point however can target ground. The trio fire forms of electric attacks using electric missiles.
+Pace, Point, and Panic|Electric anti air turrets. Point however can target ground. The trio fire forms of electric attacks using electric missiles.
 Pulse and Beat|Suport turrets that shoots healing bullets that repair blocks. They don't auto aim yet.
 Puver|A support turret that is electric, slows down hit targets. Frag bullets ignore tiles can also inflict the debuff.
 
