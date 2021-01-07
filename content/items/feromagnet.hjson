@@ -1,13 +1,13 @@
-name: Feromagnet
-description: Oh wow look at that, this description tells nothing
+name: Ferromagnet
+description: Magnetite but better.
 hardness: 2
 cost: 1
 research: {
   parent: magnitine
-  requiremenst:[
-  iron/1000
-  stone/2500
-  magnitine/1000
+  requirements: [
+    iron/1000
+    stone/2500
+    magnitine/1000
   ]
 }
 color: #E44d11
