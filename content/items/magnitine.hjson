@@ -1,13 +1,14 @@
 name: Magnitine
 description: Refined iron with magnetic properties. Looks shiny.
+details:  After it was found, the slag wars began. What was once a peaceful world had volcanoes erupt all over the world and requried help.
 hardness: 2
 cost: 1
 color: ffffff
 alwaysUnlocked: false
 research: {
   parent: iron
-  requiremenst:[
-  stone/500
-  iron/800
+  requirements: [
+    stone/500
+    iron/800
   ]
 }
