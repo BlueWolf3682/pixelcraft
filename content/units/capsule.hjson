@@ -1,6 +1,6 @@
 type: flying
 name: "Capsule"
-description: "Contains an ai that can transport itself into other units that allow it to."
+description: "Contains an ai that can transport itself into other mechanisms that allow it to."
 flying: true
 speed: 0
 accel: 0.02
