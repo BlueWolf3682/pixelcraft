@@ -1,7 +1,7 @@
 type: mech
 name: "Rusty alpha"
-description: "Standard core unit in the days of old. Theres a note in magnitine. It says: After it was found, the slag wars began. What was once a peacefull world had volcanoes errupt all over the world and requried help."
-speed :0.75
+description: "Standard core unit in the days of old."
+speed: 0.75
 health: 275
 aimDst: 10
 range: 50
@@ -20,61 +20,62 @@ canDrown: false
 canBoost: true
 weapons: [ 
 {
-name: aged-blaster
-reload: 5
-alternate: true
-ejectEffect: wet
-top: false
-shootSound: none
-x: 1
-y: -2.0
-rotate: true
-bullet: {
-type: LiquidBulletType
-liquid: water
-damage: 6
-speed: 4
-lifetime: 35
-knockback: 0.5
-inaccuracy: 15
-fragBullets: 3
-fragBullet:{
-type: LiquidBulletType
-liquid: cryofluid
-damage :0.5
-speed: 2
-lifetime: 25
-}
-}
+  name: aged-blaster
+  reload: 5
+  alternate: true
+  ejectEffect: wet
+  top: false
+  shootSound: none
+  x: 1
+  y: -2.0
+  rotate: true
+  bullet: {
+    type: LiquidBulletType
+    liquid: water
+    damage: 6
+    speed: 4
+    lifetime: 35
+    knockback: 0.5
+    inaccuracy: 15
+    fragBullets: 3
+    fragBullet:{
+      type: LiquidBulletType
+      liquid: cryofluid
+      damage :0.5
+      speed: 2
+      lifetime: 25
+    }
+  }
 }
 {
-name: aged-blaster-mount
-reload: 50
-alternate: false
-ejectEffect: casing2
-top: false
-shootSound: bigshot
-x: 0
-y: -3.0
-rotate: true
-bullet: {
-type: ArtilleryBulletType
-damage: 4
-speed: 2
-lifetime: 80
-fragBullets: 10
-hitSound: boom
-despawnEffect: explosion
-fragBullet:{
-type: BasicBulletType
-damage: 2
-speed: 2
+  name: aged-blaster-mount
+  reload: 50
+  alternate: false
+  ejectEffect: casing2
+  top: false
+  shootSound: bigshot
+  x: 0
+  y: -3.0
+  rotate: true
+  bullet: {
+    type: ArtilleryBulletType
+    damage: 4
+    speed: 2
+    lifetime: 80
+    fragBullets: 10
+    hitSound: boom
+    despawnEffect: explosion
+    fragBullet:{
+      type: BasicBulletType
+      damage: 2
+      speed: 2
+    }
+  }
 }
-}
-}]
-research: {
-parent: rusted-core
-requirements: [
-    iron/2500
 ]
+research: {
+  parent: rusted-core
+  requirements: [
+    iron/2500
+  ]
 }
